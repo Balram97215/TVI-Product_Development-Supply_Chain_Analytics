@@ -1,140 +1,158 @@
-# Warehouse Operations Analytics & Process Optimization
+# 📦 Warehouse Operations Analytics & Process Optimization
 
-**Company:** Transview Enterprise (TVI)  
-**Client Context:** Exclusive Management Consultant for QNET (Global Direct Selling E-Commerce)  
-**Role:**  Executive Product Development (Supply Chain Analytics)  
-**Methodology:** Lean Six Sigma (DMAIC), A/B Testing, Root Cause Analysis  
-**Tools:** Excel (Advanced), Kanban, Process Mapping
-
----
-
-## 📜 Project Context: High-Velocity Logistics
-Transview Enterprise served as the exclusive warehousing and operations partner for **QNET**, a high-volume global direct-selling e-commerce organization. The warehouse operated under intense throughput pressure, with thousands of SKUs moving daily to meet strict international fulfillment SLAs.
-
-Despite scale and demand, operations were fragmented. Functional teams worked in silos—Marketing launched products without Logistics alignment, and Warehouse layout changes occurred without Inventory Control visibility. This lack of coordination resulted in systemic inefficiencies.
+![Supply Chain](https://img.shields.io/badge/Domain-Supply_Chain-blue)
+![Methodology](https://img.shields.io/badge/Methodology-Lean_Six_Sigma-green)
+![Analytics](https://img.shields.io/badge/Focus-Operations_Analytics-orange)
+![Tools](https://img.shields.io/badge/Tools-Excel_|_Kanban_|_Process_Mapping-lightgrey)
 
 ---
 
-## ⚠️ The Challenge
-Two major operational failures emerged:
+## 🏢 Project Snapshot
 
-### 1. Fulfillment Delays
-- “Pack-to-Load” cycle times expanded to **3 days**
-- SLA breaches led to downstream customer dissatisfaction and escalations
-
-### 2. Dead Stock Accumulation
-- Product bundles were launched based on intuition rather than demand data
-- Slow-moving inventory consumed prime warehouse space and increased carrying costs
-
----
-
-## 🛠️ The Solution: Data Governance & Process Engineering
-I transitioned the operating culture from **opinion-based decisions** to **evidence-based execution**, applying Lean Six Sigma rigor to operations and controlled experimentation to strategy.
+| | |
+|---|---|
+| **Company** | Transview Enterprise (TVI) |
+| **Client Context** | Exclusive Management Consultant for QNET (Global Direct-Selling E-Commerce) |
+| **Role** | Product Operations Executive (Supply Chain Analytics) |
+| **Methodology** | Lean Six Sigma (DMAIC), A/B Testing, Root Cause Analysis |
+| **Tools** | Excel (Advanced), Kanban, Process Mapping |
 
 ---
 
-## 1️⃣ Lean Six Sigma Project: *Pack-to-Load Optimization*
+## 🌍 Business Context: High-Velocity Logistics
+Transview Enterprise operated as the exclusive warehousing and operations partner for **QNET**, a global direct-selling e-commerce organization handling **thousands of SKUs daily** under strict international fulfillment SLAs.
 
-### DMAIC Methodology
+Despite high demand, the operating environment was fragmented:
+- Marketing launched products without logistics alignment  
+- Warehouse layouts changed without inventory control visibility  
+- Decisions were driven by intuition rather than data  
 
-#### Define & Measure
-Initial stakeholder belief attributed delays to courier inefficiencies.  
-To validate this assumption, I conducted Exploratory Data Analysis (EDA) on order lifecycle timestamps.
-
-**Key Finding:**  
-The bottleneck was internal. The time from **Order Printed → Truck Loaded** averaged **72 hours** for select product categories.
+This disconnect created systemic inefficiencies across the fulfillment pipeline.
 
 ---
 
-#### Analyze
-I conducted a Root Cause Analysis through **Gemba Walks** on the warehouse floor.
+## ⚠️ Core Challenges
+
+### ⏱️ Fulfillment Delays
+- *Pack-to-Load* cycle time stretched to **3 days**
+- Repeated SLA breaches led to customer dissatisfaction
+
+### 📦 Dead Stock Accumulation
+- Product bundles launched on “gut feel”
+- Slow-moving inventory consumed prime warehouse space
+- Increased cost of carry and reduced operational flexibility
+
+---
+
+## 🧠 Solution Approach  
+### *From Opinion-Based → Evidence-Based Operations*
+
+I applied **Lean Six Sigma rigor** to warehouse execution and **controlled experimentation** to product strategy—creating a shared, data-driven operating language across teams.
+
+---
+
+## 🔧 Initiative 1: Lean Six Sigma — *Pack-to-Load Optimization*
+
+### 🧩 DMAIC Framework
+
+#### 🔹 Define & Measure
+Stakeholders initially blamed courier inefficiency.  
+I conducted **Exploratory Data Analysis (EDA)** on order lifecycle timestamps.
+
+**Insight:**  
+The delay was internal.  
+⏳ *Order Printed → Truck Loaded* averaged **72 hours** for specific categories.
+
+---
+
+#### 🔹 Analyze
+Performed **Gemba Walks** and root cause analysis on the warehouse floor.
 
 **Root Cause Identified:**  
-High-velocity (Class A) SKUs were stored in deep rack locations, forcing packers to traverse excessive distances multiple times per shift.
+High-velocity (Class A) SKUs were stored in deep racks, forcing excessive picker travel.
 
 ---
 
-#### Improve (Implementation)
-I executed a multi-pronged operational redesign:
+#### 🔹 Improve (Execution)
+Implemented a multi-layered operational redesign:
 
-- **ABC Slotting Optimization**
-  - Class A (Top 20% by volume): Relocated adjacent to packing lines
-  - Class C (Low volume): Moved to deep storage
+✅ **ABC Slotting Optimization**
+- Class A (Top 20% volume): Placed near packing lines  
+- Class C (Low volume): Shifted to deep storage  
 
-- **Kanban Deployment**
-  - Introduced visual Kanban triggers for packaging materials
-  - Eliminated line stoppages caused by material shortages
+✅ **Kanban Deployment**
+- Visual triggers for packaging materials  
+- Eliminated line stoppages due to stock-outs  
 
-- **SOP Standardization**
-  - Authored standardized operating procedures
-  - Removed process variability between shift teams
-
----
-
-## 2️⃣ Strategic Product Experimentation (A/B Testing)
-
-### Hypothesis-Driven Product Strategy
-
-#### The Problem
-Product bundling strategies were influenced by internal bias rather than performance data, increasing inventory risk and warehouse congestion.
+✅ **SOP Standardization**
+- Authored standardized SOPs  
+- Removed shift-to-shift execution variability  
 
 ---
 
-#### The Solution
-I implemented a structured **A/B Testing Framework** to validate product strategies prior to mass rollout.
+## 🧪 Initiative 2: Strategic Product Experimentation (A/B Testing)
 
-- **Experiment Design**
-  - Compared **Strategy A: Deep Discounting**
-  - Versus **Strategy B: Premium Value-Add Bundling**
-  - Controlled for comparable customer segments
+### 🎯 Hypothesis-Driven Product Strategy
 
-- **Comparative Metrics**
-  - Sell-through rate
-  - Margin contribution
-  - Return rate
-  - Inventory aging impact
-
-- **Implementation**
-  - Presented winning strategies using comparative visual dashboards
-  - Ensured only data-validated bundles proceeded to full production
+#### Problem
+Product bundling decisions were influenced by internal bias, increasing inventory risk and warehouse congestion.
 
 ---
 
-## 3️⃣ Quantitative Stakeholder Communication (Ad-Hoc Analytics)
+#### Solution
+Introduced a **controlled A/B testing framework** before full-scale product launches.
+
+📊 **Experiment Design**
+- Strategy A: Deep Discounting  
+- Strategy B: Premium Value-Add Bundling  
+- Controlled for comparable customer segments  
+
+📈 **Evaluation Metrics**
+- Sell-through rate  
+- Margin contribution  
+- Return rate  
+- Inventory aging impact  
+
+🏁 **Outcome**
+Only statistically superior strategies were approved for mass production.
+
+---
+
+## 📊 Initiative 3: Quantitative Stakeholder Communication
 
 In a politically charged environment, I acted as a **neutral data arbiter**.
 
-- **Ad-Hoc Reporting**
-  - Built standardized Excel reporting templates
-  - Enabled rapid response to urgent executive questions  
-    (e.g., “Why is the Energy Drink SKU stalled?”)
+🔹 **Ad-Hoc Analytics**
+- Built standardized Excel reporting templates
+- Rapidly addressed executive questions  
+  *(e.g., “Why is the Energy Drink SKU stalled?”)*
 
-- **Impact Analysis**
-  - Replaced subjective debate with quantified trade-offs
-  - Example: Demonstrated that Bundle Strategy A increased picking time by **15%**, enabling leadership to balance marketing ambition with operational capacity
+🔹 **Impact-Based Decisioning**
+- Replaced subjective debate with quantified trade-offs  
+- Example: Demonstrated that Bundle Strategy A increased picking time by **15%**, enabling leadership to balance revenue goals with operational capacity
 
 ---
 
 ## 🚀 Impact & Results
 
-- **SLA Recovery**
-  - Eliminated the 3-day packing backlog
-  - Restored *Pack-to-Load* performance to **<24 hours**
+### 📉 SLA Recovery
+- Eliminated the **3-day packing backlog**
+- Restored *Pack-to-Load* performance to **< 24 hours**
 
-- **Operational Efficiency**
-  - ABC slotting reduced average picker travel distance by **~30%**
-  - Significantly improved warehouse throughput
+### ⚙️ Operational Efficiency
+- ABC slotting reduced picker travel distance by **~30%**
+- Significantly improved throughput and labor efficiency
 
-- **Revenue Protection**
-  - A/B testing framework prevented launch of underperforming bundles
-  - Saved capital that would have been locked in dead inventory
+### 💰 Revenue Protection
+- Prevented launch of underperforming bundles
+- Saved capital otherwise tied up in dead stock
 
-- **Decision Agility**
-  - Reduced executive time-to-insight from **2 days to <4 hours**
-  - Enabled faster corrective action during peak sales cycles
+### ⚡ Decision Agility
+- Reduced executive time-to-insight from **2 days → < 4 hours**
+- Enabled rapid corrective action during peak sales cycles
 
 ---
 
 ## 🔒 Confidentiality Note
-This repository documents **methods, analytical frameworks, and operational logic** derived from the project.  
-All proprietary client data, internal metrics, and confidential operational details have been intentionally excluded.
+This repository documents **analytical frameworks, methodologies, and operational logic** only.  
+All proprietary client data, internal KPIs, and confidential process details have been intentionally excluded.
