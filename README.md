@@ -27,15 +27,6 @@
 
 ---
 
-# 📦 Warehouse Operations Analytics & Process Optimization
-
-![Supply Chain](https://img.shields.io/badge/Domain-Supply_Chain-blue)
-![Methodology](https://img.shields.io/badge/Methodology-Lean_Six_Sigma-green)
-![Analytics](https://img.shields.io/badge/Focus-Operations_Analytics-orange)
-![Tools](https://img.shields.io/badge/Tools-Excel_|_Kanban_|_Process_Mapping-lightgrey)
-
----
-
 ## 🌍 Business Context: High-Velocity Logistics
 Transview Enterprise operated as the exclusive warehousing and operations partner for **QNET**, a global direct-selling e-commerce organization handling **thousands of SKUs daily** under strict international fulfillment SLAs.
 
